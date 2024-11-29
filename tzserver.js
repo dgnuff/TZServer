@@ -2,7 +2,7 @@ const http = require("http");
 const tzInfo = require("./tzinfo");
 
 const host = '0.0.0.0';
-const port = 5000;
+const port = 80;
 
 const requestListener = function (req, res)
 {
