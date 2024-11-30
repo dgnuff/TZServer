@@ -5,7 +5,7 @@
     "main": "tzserver.js",
     "scripts":
     {
-        "execute": "tzserver.js"
+        "execute": "./tzserver.js"
     },
     "bin":
     {
