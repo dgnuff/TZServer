@@ -1,19 +1,26 @@
 {
-  "name": "tzserver",
-  "version": "1.0.0",
-  "description": "Time Zone information server",
-  "main": "tzserver.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dgnuff/TZServer.git"
-  },
-  "author": "dgnuff",
-  "license": "Unlicense",
-  "bugs": {
-    "url": "https://github.com/dgnuff/TZServer/issues"
-  },
-  "homepage": "https://github.com/dgnuff/TZServer#readme"
+    "name": "tzserver",
+    "version": "1.0.0",
+    "description": "Time Zone information server",
+    "main": "tzserver.js",
+    "scripts":
+    {
+        "execute": "tzserver.js"
+    },
+    "bin":
+    {
+        "tzserver.js": "tzserver.js"
+    },
+    "repository":
+    {
+        "type": "git",
+        "url": "git+https://github.com/dgnuff/TZServer.git"
+    },
+    "author": "dgnuff",
+    "license": "Unlicense",
+    "bugs":
+    {
+        "url": "https://github.com/dgnuff/TZServer/issues"
+    },
+    "homepage": "https://github.com/dgnuff/TZServer#readme"
 }
