@@ -12,7 +12,7 @@ const requestListener = function (req, res)
     tzName = url.searchParams.get("tzname");
     if (tzName == undefined)
     {
-        tzNamer = "etc/utc";
+        tzName = "etc/utc";
     }
 
     var entry = tzInfo.tzInfo.find(entry =>
